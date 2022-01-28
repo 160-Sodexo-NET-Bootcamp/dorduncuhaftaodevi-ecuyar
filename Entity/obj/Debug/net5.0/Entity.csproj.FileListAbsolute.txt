@@ -9,3 +9,4 @@ C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\Entity\obj\Debug\net5
 C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\Entity\obj\Debug\net5.0\Entity.dll
 C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\Entity\obj\Debug\net5.0\ref\Entity.dll
 C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\Entity\obj\Debug\net5.0\Entity.pdb
+C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\Entity\obj\Debug\net5.0\Entity.csproj.AssemblyReference.cache

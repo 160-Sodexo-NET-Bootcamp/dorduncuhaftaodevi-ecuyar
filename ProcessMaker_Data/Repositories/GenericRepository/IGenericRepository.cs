@@ -11,9 +11,10 @@ namespace ProcessMaker_Data.Repositories.GenericRepository
     {
         Task<bool> Add(T entity);
         bool Update(T entity);
+        bool UpdateGroup(List<T> entities);
         Task<T> GetById(int id);
         Task<IEnumerable<T>> GetAll();
         bool Delete(int id);
-        Task<IEnumerable<T>> Where(Expression<Func<T, bool>> predicate);
+        List<T> Where(Expression<Func<T, bool>> predicate);
     }
 }

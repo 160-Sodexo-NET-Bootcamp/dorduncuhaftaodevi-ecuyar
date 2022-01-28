@@ -61,9 +61,19 @@ namespace ProcessMaker_Data.Repositories.GenericRepository
             return false;
         }
 
-        public virtual async Task<IEnumerable<T>> Where(Expression<Func<T, bool>> predicate)
+        public bool UpdateGroup(List<T> entities)
         {
-            return await dbSet.Where(predicate).ToListAsync();
+            if (entities != null)
+            {
+                dbSet.UpdateRange(entities);
+                return true;
+            }
+            return false;
+        }
+
+        public List<T> Where(Expression<Func<T, bool>> predicate)
+        {
+            return dbSet.Where(predicate).ToList();
         }
     }
 }

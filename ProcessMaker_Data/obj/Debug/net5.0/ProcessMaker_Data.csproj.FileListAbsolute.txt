@@ -9,3 +9,4 @@ C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\ProcessMaker_Data\obj
 C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\ProcessMaker_Data\obj\Debug\net5.0\ProcessMaker_Data.dll
 C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\ProcessMaker_Data\obj\Debug\net5.0\ref\ProcessMaker_Data.dll
 C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\ProcessMaker_Data\obj\Debug\net5.0\ProcessMaker_Data.pdb
+C:\Users\ECU\Desktop\Sodexo .Net\dorduncuhaftaodevi-ecuyar\ProcessMaker_Data\obj\Debug\net5.0\ProcessMaker_Data.csproj.AssemblyReference.cache

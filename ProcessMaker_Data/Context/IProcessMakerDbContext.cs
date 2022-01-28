@@ -1,13 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using ProcessMaker_Data.DataModel;
 
 namespace ProcessMaker_Data.Context
 {
     public interface IProcessMakerDbContext
     {
+        DbSet<Process_DataModel> Processes { get; set; }
     }
 }

@@ -1,17 +1,15 @@
+using AutoMapper;
+using Core;
 using Hangfire;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ProcessMaker_Data.Context;
+using ProcessMaker_Data.UoW;
 
 namespace ProcessMakerWebAPI
 {
@@ -27,6 +25,22 @@ namespace ProcessMakerWebAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            //get connection string
+            var dbConfig = Configuration.GetConnectionString("DefaultString");
+            services.AddDbContext<ProcessMakerDbContext>(options => options
+             .UseSqlServer("Data Source=localhost\\SQLEXPRESS;Initial Catalog=BackgroundJob_DB;Integrated Security=True")
+             );
+
+
+            //automapper
+            var mapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.AddProfile(new MappingProfile());
+            });
+            services.AddSingleton(mapperConfig.CreateMapper());
+
+            // add uow
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             //hangfire
             services.AddHangfire(x => x.UseSqlServerStorage(Configuration["ConnectionStrings:HangfireConnectionString"]));

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "U4k/cEN5OP/aNKHpOFlAOE0ID8M6uqtunv3NlKhO85euEwKn779GARBW423xQvavLe70wf/YfRyVOw7Xo3lhIg==",
+  "dgSpecHash": "zdZBPcxDLvsMWGS4v5vJorUioWavxu69AW0H9HduM9pW5BmC6B2dJsqJNE3H+a3P0uFMai8VzZjCbDARYT38LA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ECU\\Desktop\\Sodexo .Net\\dorduncuhaftaodevi-ecuyar\\Entity\\Entity.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ECU\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\ECU\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

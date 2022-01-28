@@ -1,5 +1,6 @@
 ﻿using ProcessMaker_Data.Context;
 using ProcessMaker_Data.DataModel;
+using ProcessMaker_Data.Repositories.GenericRepository;
 using System;
 using System.Collections.Generic;
 using System.Linq;

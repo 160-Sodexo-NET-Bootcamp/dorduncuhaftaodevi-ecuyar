@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMakerWebAPI", "..\Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMaker_Data", "..\ProcessMaker_Data\ProcessMaker_Data.csproj", "{470EF363-EF5A-4DDB-9FD5-7C51CF0BFD5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "..\Entity\Entity.csproj", "{4C6C677C-71A6-4770-9181-C0650D3208D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{470EF363-EF5A-4DDB-9FD5-7C51CF0BFD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{470EF363-EF5A-4DDB-9FD5-7C51CF0BFD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{470EF363-EF5A-4DDB-9FD5-7C51CF0BFD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C6C677C-71A6-4770-9181-C0650D3208D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6C677C-71A6-4770-9181-C0650D3208D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6C677C-71A6-4770-9181-C0650D3208D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6C677C-71A6-4770-9181-C0650D3208D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

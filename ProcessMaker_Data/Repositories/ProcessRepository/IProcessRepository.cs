@@ -1,4 +1,5 @@
 ﻿using ProcessMaker_Data.DataModel;
+using ProcessMaker_Data.Repositories.GenericRepository;
 
 namespace ProcessMaker_Data.Repositories.ProcessRepository
 {

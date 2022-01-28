@@ -1,6 +1,7 @@
 ﻿namespace ProcessMakerWebAPI.Jobs
 {
-    public class AddRandomProcess
+    public class AddProcess
     {
+
     }
 }
